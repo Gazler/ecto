@@ -1,4 +1,5 @@
-defmodule Ecto.Schema do
+defmodule Ecto.Schema do  ## Example
+
   @moduledoc ~S"""
   Defines a schema.
 
@@ -6,7 +7,6 @@ defmodule Ecto.Schema do
   repository. Every schema defines a struct, which is ultimately how
   data is manipulated.
 
-  ## Example
 
       defmodule User do
         use Ecto.Schema
@@ -657,7 +657,7 @@ defmodule Ecto.Schema do
       field, implying the user is defining the field manually elsewhere
 
     * `:type` - Sets the type of automatically defined `:foreign_key`.
-      Defaults to: `:integer` and be set per schema via `@foreign_key_type`
+      Defaults to: `:integer` and can be set per schema via `@foreign_key_type`
 
     * `:on_replace` - The action taken on associations when the record is
       replaced   when casting or manipulating parent changeset. May be
