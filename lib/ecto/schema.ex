@@ -6,7 +6,7 @@ defmodule Ecto.Schema do
   repository. Every schema defines a struct, which is ultimately how
   data is manipulated.
 
-  ## Example
+    ## Example
 
       defmodule User do
         use Ecto.Schema
